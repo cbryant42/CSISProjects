@@ -1,0 +1,56 @@
+<html>
+	<head>
+	<LINK REL=StyleSheet HREF="survey.css" TYPE="text/css" MEDIA=screen>
+		<title>Music Survey</title>
+	</head>
+
+	<body>
+		<form action="http://www.markmurtha.com/csis128/readform.asp" method="post">
+			<table>
+				<fieldset>
+					Name: <input type="text" name="name">
+				</fieldset>
+
+				<fieldset>
+					Email Address:
+					<input type="text" name="email">
+				</fieldset>
+
+				<fieldset>
+					<legend>Favorite genre of music:</legend>
+						<input type="checkbox" value="Rock" name="music"/>Rock
+						<input type="checkbox" value="Alternative" name="music"/>Alternative
+						<input type="checkbox" value="Rap" name="music"/> Rap
+				</fieldset>
+
+				<fieldset>
+					<legend>How often do you purchase music?</legend>
+					
+						<input type="radio" value="Very often" name="purchase">Very often
+						<input type="radio" value="Sometimes" name="purchase">Sometimes
+						<input type="radio" value="Never" name="purchase">Never
+				</fieldset>
+
+				<fieldset>
+					<Legend>Locations where you listen to music:</legend>
+					<select size="3" name="locations">
+						<option value="Room">Room</option>
+						<option value="Car">Car</option>
+						<option value="Class">Class</option>
+						<option value="Kitchen">Kitchen</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<legend>What role does music play in your life?</legend>
+						<textarea rows="3" cols="60"></textarea>
+				</fieldset>
+
+				<tr>
+				<td><button type="submit" value="Submit">Submit</button>
+				<button type="reset" value="Reset">Reset</button></td>
+				</tr>
+		</form>
+	</body>
+
+</html>
