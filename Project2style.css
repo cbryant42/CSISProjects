@@ -1,0 +1,16 @@
+table, th, td {
+	border: 2px solid black;
+}
+table {
+	border-collapse: collapse;
+}
+body {
+	background-color: purple;
+	color: lime;
+}
+a:link {
+	color: lime;
+}
+a:visited {
+	color: lime;
+}
