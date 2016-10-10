@@ -1,0 +1,67 @@
+<head>
+<title>HomePage</title>	
+<link rel="stylesheet" type="text/css" href="websiteStyle.css">
+</head>
+
+<body>
+	<ul id="drop-nav">
+  		<li><a class="active" href="https://cbryant42.github.io/CSISProjects/homePage">Home</a></li>
+
+  		<li><a href="#">Shooting</a>
+  			<ul>
+  				<li><a href="https://cbryant42.github.io/CSISProjects/shooting">Guns</a></li>
+  				<li><a href="https://cbryant42.github.io/CSISProjects/accessories">Accessories</a></li>
+  			</ul>
+  		</li>
+
+  		<li><a href="#">Outdoor Gear</a></li>
+
+  		<li><a href="#">Knives</a>
+  			<ul>
+  				<li><a href="https://cbryant42.github.io/CSISProjects/knives">Folding</a></li>
+  				<li><a href="https://cbryant42.github.io/CSISProjects/fixedblade">Fixed</a></li>
+  			</ul>
+  		</li>
+
+  		<li><a href="#">Site Survey</a></li>
+
+	</ul>
+	
+	<div style="padding:20px;margin: 0px;background-color:#f5f5dc;height:1500px; width: 100%; overflow: hidden;">
+	<form>
+			<table>
+				<fieldset>
+					Name: <input type="text" name="name">
+				</fieldset>
+
+				<fieldset>
+					Email Address:
+					<input type="text" name="email">
+				</fieldset>
+
+				<fieldset>
+					<legend>Why did you visit this site?</legend>
+						<input type="checkbox" value="Shooting" name="reasons"/>Shooting
+						<input type="checkbox" value="Knives" name="reasons"/>Knives
+						<input type="checkbox" value="Outdoor Gear" name="reasons"/> Outdoor Gear
+				</fieldset>
+
+				<fieldset>
+					<legend>How often do you visit this site?</legend>
+					
+						<input type="radio" value="Very often" name="purchase">Very often
+						<input type="radio" value="Sometimes" name="purchase">Sometimes
+						<input type="radio" value="Never" name="purchase">Never
+				</fieldset>
+
+				<fieldset>
+					<legend>Do you have any suggestions for this site? New content, something to change, etc.</legend>
+						<textarea rows="3" cols="60"></textarea>
+				</fieldset>
+
+				<fieldset>
+				<button type="submit" value="Submit">Submit</button>
+				<button type="reset" value="Reset">Reset</button>
+				</fieldset>
+		</form>
+</body>
