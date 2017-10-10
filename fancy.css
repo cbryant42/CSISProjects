@@ -1,0 +1,24 @@
+p {
+	font-family: arial;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+a {
+	color: red;
+}
+
+body {
+	background-color: #2f4f4f;
+	color: cyan;
+}
+
+i {
+	color: yellow;
+}
+
+b {
+	color: white;
+}
